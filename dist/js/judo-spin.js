@@ -259,7 +259,7 @@ function judoSpin(element, options) {
       for (let i = 1; i <= totalImages; i++) {
         const img = judoSpinBox.querySelector('img:nth-child(' + i + ')');
         img.style.display = (i === imageIndex) ? 'block' : 'none';
-        img.classList.add("active");
+        img.classList.add("image-"+i);
       }
   }
   
